@@ -97,12 +97,12 @@ sudo systemctl enable httpd
 
 ```
 sudo yum install -y git
-sudo git clone https://github.com/kodekloudhub/learning-app-ecommerce.git /var/www/html/
+sudo git clone https://github.com/VedantDomadiya/ECommerce-app-LAMP.git /var/www/html/
 ```
 
 <!-- 5. Update index.php
 
-Update [index.php](https://github.com/kodekloudhub/learning-app-ecommerce/blob/13b6e9ddc867eff30368c7e4f013164a85e2dccb/index.php#L107) file to connect to the right database server. In this case `localhost` since the database is on the same server.
+Update [index.php](https://github.com/VedantDomadiya/ECommerce-app-LAMP/blob/13b6e9ddc867eff30368c7e4f013164a85e2dccb/index.php#L107) file to connect to the right database server. In this case `localhost` since the database is on the same server.
 
 ```
 sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
@@ -178,3 +178,6 @@ sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
 ```
 curl http://localhost
 ```
+
+Incase of any doubts
+Checkout : [Project Document](https://docs.google.com/document/d/1neLx-aqfcwBJscjVyCDfCY-nZRlS-onrO2ATblYu0vY/edit?usp=sharing)  
