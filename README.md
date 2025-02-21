@@ -2,6 +2,8 @@
 
 This is a sample e-commerce application built for learning purposes.
 
+It uses LAMP Stack and is cofigured all in one CentOS Server
+
 Here's how to deploy it on CentOS systems:
 
 ## Deploy Pre-Requisites
