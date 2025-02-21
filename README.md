@@ -2,7 +2,7 @@
 
 This is a sample e-commerce application built for learning purposes.
 
-It uses LAMP Stack and is cofigured all in one CentOS Server
+It uses LAMP Stack and is cofigured CentOS Server
 
 Here's how to deploy it on CentOS systems:
 
@@ -181,5 +181,6 @@ sudo sed -i 's/172.20.1.101/localhost/g' /var/www/html/index.php
 curl http://localhost
 ```
 
-Incase of any doubts
-Checkout : [Project Document](https://docs.google.com/document/d/1neLx-aqfcwBJscjVyCDfCY-nZRlS-onrO2ATblYu0vY/edit?usp=sharing)  
+Checkout Document
+For All in one server : [Project Document](https://docs.google.com/document/d/1neLx-aqfcwBJscjVyCDfCY-nZRlS-onrO2ATblYu0vY/edit?usp=sharing)  
+For Distributed servers : [Project Document](https://docs.google.com/document/d/11Zj4O4L1VYPlVK5vLVtmTIfuJLdENhfQFwETA8JK7rw/edit?usp=sharing)
